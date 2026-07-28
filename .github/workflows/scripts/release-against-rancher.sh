@@ -85,6 +85,12 @@ yq --inplace ".remoteDialerProxyVersion = \"${NEW_CHART_VERSION}+up${NEW_REMOTED
 go generate ./...
 
 git add .
-git commit -m "Bump remotedialer to ${NEW_CHART_VERSION}+up${NEW_REMOTEDIALER_VERSION_SHORT}"
+git commit -m "Bump remotedialer chart to ${NEW_CHART_VERSION}+up${NEW_REMOTEDIALER_VERSION_SHORT}"
+
+go get github.com/rancher/remotedialer-proxy@${NEW_REMOTEDIALER_VERSION}
+go mod tidy
+
+git add .
+git commit -m "Bump remotedialer to ${NEW_REMOTEDIALER_VERSION}"
 
 popd > /dev/null
