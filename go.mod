@@ -78,5 +78,6 @@ require (
 
 
 
-replace github.com/rancher/lasso => github.com/rancher-teja/lasso v0.0.0-00010101000000-000000000000
+
+replace github.com/rancher/lasso => github.com/rancher-teja/lasso v0.2.9-0.20260831041713-ab5f7a5e24d2
 replace github.com/rancher/wrangler => github.com/rancher-teja/wrangler v0.0.0-00010101000000-000000000000

@@ -1,6 +1,6 @@
 module github.com/rancher/remotedialer-proxy
 
-go 1.27.5
+go 1.27.0
 
 require (
 	github.com/gorilla/mux v1.8.1
@@ -75,6 +75,7 @@ require (
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.2 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )
+
 
 
 replace github.com/rancher/lasso => github.com/rancher-teja/lasso v0.0.0-00010101000000-000000000000
