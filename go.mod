@@ -66,7 +66,7 @@ require (
 	google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.13.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
-	k8s.io/klog/v2 v2.141.0 // indirect
+	k8s.io/klog/v2 v2.140.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20260317180543-43fb72c5454a // indirect
 	k8s.io/streaming v0.37.0 // indirect
 	k8s.io/utils v0.0.0-20260319190234-28399d86e0b5 // indirect
@@ -75,6 +75,7 @@ require (
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.2 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )
+
 
 replace github.com/rancher/lasso => github.com/rancher-teja/lasso v0.0.0-00010101000000-000000000000
 replace github.com/rancher/wrangler => github.com/rancher-teja/wrangler v0.0.0-00010101000000-000000000000
